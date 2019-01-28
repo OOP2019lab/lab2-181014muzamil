@@ -4,6 +4,7 @@
 using namespace std;
 
 struct gitHubUser{
+	//struct of github users
 	string name;
 	string userName;
 	string email;
@@ -12,7 +13,7 @@ struct gitHubUser{
 };
 
 void readDataFromFile( gitHubUser * users, string filepath)
-{
+{  //to read data from file
 	ifstream fin;
 	ofstream fout;
 	fin.open("filepath");
